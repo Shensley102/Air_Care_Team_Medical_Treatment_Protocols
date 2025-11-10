@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #0f172a;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #22c55e;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 800px at 20% 0%, #0e1228 0%, #0b1020 60%, #0a0f1d 100%);
+  color: var(--text);
+}
+
+input, select {
+  color: #111827;
+}
+
+a.link {
+  color: #93c5fd;
+}
+a.link:hover {
+  text-decoration: underline;
+}
